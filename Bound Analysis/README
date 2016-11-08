@@ -1,0 +1,7 @@
+run all tests: ./runscript :runs all tests
+
+CPU test: ./CPUbound #iterations SchedulingPolicy #Processes
+
+I/O Test: ./IObound #Processes SchedulingPolicy BytesToCopy Bytesize
+
+Mixed test: ./MIXEDbound #iterations SchedulingPolicy #Processes
